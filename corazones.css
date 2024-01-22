@@ -1,0 +1,44 @@
+img{
+	height: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.button{  
+		font: normal 35px Georgia, sans-serif;
+
+		}
+	.button2{  
+		font: normal 40px Georgia, sans-serif;
+
+		}
+	.slider-frame img {
+		height: 350px;
+		width: auto;
+	}
+
+	.slider-frame  {
+		overflow: visible;
+	}
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+	.button{  
+		font: normal 25px Georgia, sans-serif;
+
+		}
+	.button2{  
+		font: normal 25px Georgia, sans-serif;
+	}
+
+	.slider-frame img {
+		height: 200px;
+		width: auto;
+	}	
+	.button3{
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: -40px;
+	  }
+}
